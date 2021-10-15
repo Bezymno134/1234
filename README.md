@@ -1,8 +1,8 @@
 # root@f798856ead4d:/# pwd/
-bash: pwd/: No such file or directory
-root@f798856ead4d:/# ~ $ pwd
-bash: /root: Is a directory
-root@f798856ead4d:/# ~ $ cd/
+  bash: pwd/: No such file or directory
+  root@f798856ead4d:/# ~ $ pwd
+  bash: /root: Is a directory
+  root@f798856ead4d:/# ~ $ cd/
 bash: /root: Is a directory
 root@f798856ead4d:/# $ ls
 bash: $: command not found
