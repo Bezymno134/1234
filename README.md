@@ -1,4 +1,5 @@
-# root@f798856ead4d:/# pwd/---------------
+#root@f798856ead4d:/# pwd/
+
   bash: pwd/: No such file or directory
   
   root@f798856ead4d:/# ~ $ pwd
@@ -73,34 +74,150 @@ root@f798856ead4d:~# ls test2
 
 subtest
 
-root@f798856ead4d:~# mkdir classics
+1)root@f798856ead4d:~# mkdir classics
 
-root@f798856ead4d:~#  rmdir classics
+2)root@f798856ead4d:~#  rmdir classics
 
-root@f798856ead4d:~# uname -a
+3)root@f798856ead4d:~# uname -a
 
 Linux f798856ead4d 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 x86_64 x86_64 GNU/Linux
 
-root@f798856ead4d:~# uname -s
+4)root@f798856ead4d:~# uname -s
 
 Linux
 
-root@f798856ead4d:~# uname -r
+5)root@f798856ead4d:~# uname -r
 
 4.19.0-16-amd64
 
-root@f798856ead4d:~# date
+6)root@f798856ead4d:~# date
 
 Fri Oct 15 15:48:04 MSK 2021
 
-root@f798856ead4d:~# cal 
+7)root@f798856ead4d:~# cal 
 
 bash: cal: command not found
 
-root@f798856ead4d:~# cal
+8)
 
-bash: cal: command not found
+9)/clean 
 
-root@f798856ead4d:~# ^C
+10)root@f798856ead4d:~# pwd
+
+/root
+
+11)root@f798856ead4d:~# cd ~
 
 root@f798856ead4d:~# 
+
+12)root@f798856ead4d:~# ls
+
+classics  dir1  dir2  dir3  file1  file2  file3  t.sh  test  test1  test2
+
+root@f798856ead4d:~# ls -R
+
+.:
+
+classics  dir1  dir2  dir3  file1  file2  file3  t.sh  test  test1  test2
+
+./classics:
+
+./dir1:
+
+f1
+
+./dir2:
+
+./dir3:
+
+./test:
+
+subtest
+
+./test/subtest:
+
+./test1:
+
+subtest
+
+./test1/subtest:
+
+./test2:
+
+subtest
+
+./test2/subtest:
+
+13)root@f798856ead4d:~# ls -a
+
+.  ..  .bash_history  .bashrc  .local  .profile  classics  dir1  dir2  dir3  file1  file2  file3  t.sh  test  test1  test2
+
+14)root@f798856ead4d:~# ls -R
+
+.:
+
+classics  dir1  dir2  dir3  file1  file2  file3  t.sh  test  test1  test2
+
+./classics:
+
+./dir1:
+
+f1
+
+./dir2:
+
+./dir3:
+
+./test:
+
+subtest
+
+./test/subtest:
+
+./test1:
+
+subtest
+
+./test1/subtest:
+
+./test2:
+
+subtest
+
+./test2/subtest:
+
+15)root@f798856ead4d:~# type -F
+
+bash: type: -F: invalid option
+
+type: usage: type [-afptP] name [name ...]
+
+16 и 17)root@f798856ead4d:~# mkdir etc
+
+root@f798856ead4d:~# cd etc
+
+root@f798856ead4d:~/etc# mkdir X11
+
+root@f798856ead4d:~/etc# cd X11
+
+root@f798856ead4d:~/etc/X11# 
+
+18)root@f798856ead4d:~/etc/X11# cd ~
+
+root@f798856ead4d:~# 
+
+19)root@f798856ead4d:~# cd etc
+
+root@f798856ead4d:~/etc# 
+
+20)root@f798856ead4d:~/etc# ls group
+
+ls: cannot access 'group': No such file or directory
+
+root@f798856ead4d:~/etc# mkdir group
+
+root@f798856ead4d:~/etc# ls group
+
+root@f798856ead4d:~/etc# 
+
+21)
