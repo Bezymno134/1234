@@ -1,5 +1,4 @@
-# root@f798856ead4d:/# pwd/
-
+# root@f798856ead4d:/# pwd/---------------
   bash: pwd/: No such file or directory
   
   root@f798856ead4d:/# ~ $ pwd
@@ -39,6 +38,7 @@ bin  boot  dev  dir1  dir2  dir3  etc  file.1  file.2  file.3  home  lib  lib32 
 root@f798856ead4d:/# ls -F --color
 
 bin@   dev/   dir2/  etc/    file.2  home/  lib32@  libx32@  mnt/  proc/  run/   srv/  tmp/  var/
+
 boot/  dir1/  dir3/  file.1  file.3  lib@   lib64@  media/   opt/  root/  sbin@  sys/  usr/  vegetables
 
 root@f798856ead4d:/# cd
