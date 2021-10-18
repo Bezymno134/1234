@@ -220,4 +220,21 @@ root@f798856ead4d:~/etc# ls group
 
 root@f798856ead4d:~/etc# 
 
-21)
+21)21)root@f798856ead4d:~/classics/etc# cat group passwd Hello Good morning
+
+22)root@f798856ead4d:~/classics/etc# cat group | head -n 5 Hello
+
+23)root@f798856ead4d:~/classics/etc# cat passwd | tail -n 3 Good morning
+
+24)root@f798856ead4d:~/classics/etc# wc -l passwd
+1 passwd
+
+25)root@f798856ead4d:~# cd student
+
+26)root@f798856ead4d:/student# touch file1 file2 file3 root@f798856ead4d:/student# ls file1 file2 file3
+
+27)root@f798856ead4d:/student# mkdir dir1 dir2 dir3 root@f798856ead4d:/student# ls dir1 dir2 dir3 file1 file2 file3
+
+28)root@f798856ead4d:~/student# cp file1 dir1
+
+
