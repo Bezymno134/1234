@@ -1,6 +1,6 @@
 laba 1
 ========================
-<#root@f798856ead4d:/# pwd/>
+#root@f798856ead4d:/# pwd/
 
   bash: pwd/: No such file or directory
   
