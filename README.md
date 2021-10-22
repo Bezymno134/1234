@@ -1,5 +1,9 @@
-laba 1
+Лабораторная работа №1
 ========================
+
+Тренировочные задания
+-------------------------
+
 #root@f798856ead4d:/# pwd/
 
   bash: pwd/: No such file or directory
@@ -76,43 +80,68 @@ root@f798856ead4d:~# ls test2
 
 subtest
 
-1)root@f798856ead4d:~# mkdir classics
+Практические задания
+-------------------------
 
-2)root@f798856ead4d:~#  rmdir classics
+**Задание 1.**
 
-3)root@f798856ead4d:~# uname -a
+root@f798856ead4d:~# mkdir classics
+
+**Задание 2.**
+
+root@f798856ead4d:~#  rmdir classics
+
+**Задание 3.**
+
+root@f798856ead4d:~# uname -a
 
 Linux f798856ead4d 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 x86_64 x86_64 GNU/Linux
 
-4)root@f798856ead4d:~# uname -s
+**Задание 4.**
+
+root@f798856ead4d:~# uname -s
 
 Linux
 
-5)root@f798856ead4d:~# uname -r
+**Задание 5.**
+
+root@f798856ead4d:~# uname -r
 
 4.19.0-16-amd64
 
-6)root@f798856ead4d:~# date
+**Задание 6.**
+
+root@f798856ead4d:~# date
 
 Fri Oct 15 15:48:04 MSK 2021
 
-7)root@f798856ead4d:~# cal 
+**Задание 7.**
+
+root@f798856ead4d:~# cal 
 
 bash: cal: command not found
 
-8)
+**Задание 8.**
 
-9)/clean 
+**Задание 9.**
 
-10)root@f798856ead4d:~# pwd
+/clean 
+
+**Задание 10.**
+
+root@f798856ead4d:~# pwd
 
 /root
 
-11)root@f798856ead4d:~# cd ~
+**Задание 11.**
+
+root@f798856ead4d:~# cd ~
 
 root@f798856ead4d:~# 
 
-12)root@f798856ead4d:~# ls
+**Задание 12.**
+
+root@f798856ead4d:~# ls
 
 classics  dir1  dir2  dir3  file1  file2  file3  t.sh  test  test1  test2
 
@@ -150,11 +179,15 @@ subtest
 
 ./test2/subtest:
 
-13)root@f798856ead4d:~# ls -a
+**Задание 13.**
+
+root@f798856ead4d:~# ls -a
 
 .  ..  .bash_history  .bashrc  .local  .profile  classics  dir1  dir2  dir3  file1  file2  file3  t.sh  test  test1  test2
 
-14)root@f798856ead4d:~# ls -R
+**Задание 14.**
+
+root@f798856ead4d:~# ls -R
 
 .:
 
@@ -188,13 +221,17 @@ subtest
 
 ./test2/subtest:
 
-15)root@f798856ead4d:~# type -F
+**Задание 15.**
+
+root@f798856ead4d:~# type -F
 
 bash: type: -F: invalid option
 
 type: usage: type [-afptP] name [name ...]
 
-16 и 17)root@f798856ead4d:~# mkdir etc
+**Задание 16 и 17.**
+
+root@f798856ead4d:~# mkdir etc
 
 root@f798856ead4d:~# cd etc
 
@@ -204,15 +241,21 @@ root@f798856ead4d:~/etc# cd X11
 
 root@f798856ead4d:~/etc/X11# 
 
-18)root@f798856ead4d:~/etc/X11# cd ~
+**Задание 18.**
+
+root@f798856ead4d:~/etc/X11# cd ~
 
 root@f798856ead4d:~# 
 
-19)root@f798856ead4d:~# cd etc
+**Задание 19.**
+
+root@f798856ead4d:~# cd etc
 
 root@f798856ead4d:~/etc# 
 
-20)root@f798856ead4d:~/etc# ls group
+**Задание 20.**
+
+root@f798856ead4d:~/etc# ls group
 
 ls: cannot access 'group': No such file or directory
 
@@ -222,21 +265,37 @@ root@f798856ead4d:~/etc# ls group
 
 root@f798856ead4d:~/etc# 
 
-21)21)root@f798856ead4d:~/classics/etc# cat group passwd Hello Good morning
+**Задание 21.**
 
-22)root@f798856ead4d:~/classics/etc# cat group | head -n 5 Hello
+root@f798856ead4d:~/classics/etc# cat group passwd Hello Good morning
 
-23)root@f798856ead4d:~/classics/etc# cat passwd | tail -n 3 Good morning
+**Задание 22.**
 
-24)root@f798856ead4d:~/classics/etc# wc -l passwd
+root@f798856ead4d:~/classics/etc# cat group | head -n 5 Hello
+
+**Задание 23.**
+
+root@f798856ead4d:~/classics/etc# cat passwd | tail -n 3 Good morning
+
+**Задание 24.**
+
+root@f798856ead4d:~/classics/etc# wc -l passwd
 1 passwd
 
-25)root@f798856ead4d:~# cd student
+**Задание 25.**
 
-26)root@f798856ead4d:/student# touch file1 file2 file3 root@f798856ead4d:/student# ls file1 file2 file3
+root@f798856ead4d:~# cd student
 
-27)root@f798856ead4d:/student# mkdir dir1 dir2 dir3 root@f798856ead4d:/student# ls dir1 dir2 dir3 file1 file2 file3
+**Задание 26.**
 
-28)root@f798856ead4d:~/student# cp file1 dir1
+root@f798856ead4d:/student# touch file1 file2 file3 root@f798856ead4d:/student# ls file1 file2 file3
+
+**Задание 27.**
+
+root@f798856ead4d:/student# mkdir dir1 dir2 dir3 root@f798856ead4d:/student# ls dir1 dir2 dir3 file1 file2 file3
+
+**Задание 28.**
+
+root@f798856ead4d:~/student# cp file1 dir1
 
 
